@@ -1,7 +1,17 @@
 <script setup lang="ts">
-import HelloWorld from './components/HelloWorld.vue'
+
 </script>
 
 <template>
-  <HelloWorld />
+  <div class="app">
+    <h1>PPW Vue App</h1>
+    <p>Módulo 01 - Proyecto iniciado correctamente.</p>
+  </div>
 </template>
+
+<style scoped>
+.app {
+  padding: 2rem;
+  font-family: sans-serif;
+}
+</style>
